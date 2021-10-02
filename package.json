@@ -1,20 +1,36 @@
 {
-    "name": "phpsnippets",
-    "displayName": "PhpSnippets",
-    "description": "Easy and Fast Php Snippet ",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.60.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "php",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "phpsnippets",
+  "displayName": "Php Snippets",
+  "description": "Easy and Fast Php Snippet ",
+  "version": "0.0.1",
+  "author": {
+    "name": "Arbab Hussain",
+    "email": "38646088+arbabhsiddiqui@users.noreply.github.com",
+    "url": "https://github.com/arbabhsiddiqui"
+  },
+  "keywords": [
+    "php snippet",
+    "php snippets",
+    "snippets for php"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arbabhsiddiqui/PhpSnippets"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png"
 }

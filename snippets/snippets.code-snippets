@@ -1,1 +1,13 @@
-{}
+{
+  "phpEchoHtml": {
+    "prefix": "peh",
+    "body": ["<? echo ${1:value};?>"],
+    "description": "using php echo with html"
+  },
+
+  "phpEcho": {
+    "prefix": "pe",
+    "body": ["echo ${1:value};"],
+    "description": "using php echo with html"
+  }
+}
