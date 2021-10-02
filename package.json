@@ -23,7 +23,11 @@
     "snippets": [
       {
         "language": "php",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/php.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/php.json"
       }
     ]
   },

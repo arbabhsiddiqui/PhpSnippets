@@ -1,0 +1,59 @@
+{
+  "phpTags": {
+    "prefix": "p!",
+    "body": ["<?php ${1} ?>"],
+    "description": "php tag"
+  },
+
+  "phpTagsWith=": {
+    "prefix": "p=",
+    "body": ["<?= ${1} ?>"],
+    "description": "php tag"
+  },
+
+  "phpEchoHtml": {
+    "prefix": "peh",
+    "body": ["<?php echo \"${1:value}\"; ?>"],
+    "description": "using php echo with html"
+  },
+
+  "phpEcho": {
+    "prefix": "pe",
+    "body": ["echo \"${1:value}\";"],
+    "description": "php echo"
+  },
+
+  "phpRequire": {
+    "prefix": "pr",
+    "body": ["require ('${1:value}');"],
+    "description": "php require"
+  },
+
+  "phpSession": {
+    "prefix": "ps",
+    "body": ["session_start();"],
+    "description": "php session start"
+  },
+
+  "phpIfIsSet": {
+    "prefix": "pifs",
+    "body": ["if (isset(${1:condition})) { ", "${2:value} ", "${0} ", "} "],
+    "description": "php is set check"
+  },
+
+  "phpIf": {
+    "prefix": "pif",
+    "body": [
+      "if (${1:condition}) { ",
+      "${2:value} ",
+      "${0} ",
+      "}else{ ${3:value} } "
+    ],
+    "description": "php if"
+  },
+  "phpIfEnd": {
+    "prefix": "pife",
+    "body": ["if (${1:condition}):", "endif;"],
+    "description": "if end syntax"
+  }
+}
