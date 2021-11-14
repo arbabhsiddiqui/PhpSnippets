@@ -2,8 +2,8 @@
   "name": "phpsnippets",
   "displayName": "Php Snippets",
   "description": "Easy and Fast Php Snippet ",
-  "version": "0.0.1",
-  "publisher":"ArbabHussain19",
+  "version": "0.0.2",
+  "publisher": "ArbabHussain19",
   "author": {
     "name": "Arbab Hussain",
     "email": "38646088+arbabhsiddiqui@users.noreply.github.com",
@@ -12,7 +12,9 @@
   "keywords": [
     "php snippet",
     "php snippets",
-    "snippets for php"
+    "snippets for php",
+    "snippet",
+    "snippet php"
   ],
   "engines": {
     "vscode": "^1.60.0"
@@ -37,5 +39,10 @@
     "url": "https://github.com/arbabhsiddiqui/PhpSnippets"
   },
   "license": "MIT",
-  "icon": "images/icon.png"
+  "icon": "images/icon.png",
+  "__metadata": {
+    "id": "8488dfb5-873c-47fc-bb87-2a3560b91916",
+    "publisherDisplayName": "Arbab Hussain",
+    "publisherId": "5c8f9c54-d14d-4ed5-b246-aea57d529cf0"
+  }
 }
